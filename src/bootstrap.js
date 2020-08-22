@@ -9,16 +9,16 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 import "./style/main.scss";
 
-import App from "./components/app";
+import Layout from "./components/layout";
 
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
-        <App>
+        <Layout>
           <p>paragraph</p>
           <p>paragraph</p>
-        </App>
+        </Layout>
       </BrowserRouter>
     </Provider>,
     document.querySelector(".app-wrapper")
