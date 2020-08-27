@@ -24,7 +24,7 @@
 .form-button {
     &__button {
         height: 38px;
-        width: 243px;
+        width: 240px;
         border-radius: 20px;
         background-color: #00CB79;
         font-size: 16px;
@@ -33,5 +33,10 @@
         &:focus {
             outline: none;
         }
+    }
+
+    &__gray-button {
+        background-color: #999999;
+        width: 140px;
     }
 }
