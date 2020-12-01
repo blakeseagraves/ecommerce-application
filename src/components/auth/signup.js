@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import SignUpForm from "./signupform";
+import React, { Component } from 'react';
 
-import PageTitle from "../pageTitle";
+import SignUpForm from './signupForm';
+import PageTitle from '../pageTitle';
 
 class SignUp extends Component {
 
@@ -9,11 +9,11 @@ class SignUp extends Component {
         console.log(fields);
     }
 
-    render () {
+    render() {
         return (
-            <div className="sign-up">
-                <PageTitle className="sign-up__page-title" title="Register" />
-                <SignUpForm onSubmit={this.onSubmit} className="sign-up__form" />
+            <div className='sign-up'>
+                <PageTitle className='sign-up__page-title' title='Register' />
+                <SignUpForm onSubmit={this.onSubmit} className='sign-up__form' />
             </div>
         )
     }
