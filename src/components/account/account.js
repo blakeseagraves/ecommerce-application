@@ -56,7 +56,7 @@ class Account extends Component {
 
     render() {
         return (
-            <div className="account"> 
+            <div className='account'>
                 { this.renderContent() }
             </div>
         )
