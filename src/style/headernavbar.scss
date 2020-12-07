@@ -19,21 +19,22 @@
 
         display: grid;
         grid-template-rows: [s] 1fr [e];
-        grid-column-gap: 40px;
+        grid-column-gap: 47px;
 
-        color: #333333;
+        color: #333;
         font-size: 16px;
-
+    
         & > * {
             grid-row: s/e;
         }
 
-        margin-right: 50px;
+        margin-right: 47px;
     }
+
 }
 
 .green-text {
-    color: #00cb79 !important;
+    color: #00CB79 !important;
 }
 
 .navbar {
@@ -45,13 +46,16 @@
     display: grid;
     grid-template-rows: [s] 1fr [e];
     align-items: center;
+
     justify-content: center;
     grid-column-gap: 40px;
 
-    color: #e6e6e6;
+    color: #E6E6E6;
     font-size: 18px;
+    font-weight: normal;
 
     & > * {
         grid-row: s/e;
     }
+
 }
